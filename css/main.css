@@ -17,3 +17,42 @@ html {
 *,*::before, *::after {
   box-sizing: inherit;
 }
+
+.main-grey {
+  background-color: grey;
+}
+
+a {
+  color: #000;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
