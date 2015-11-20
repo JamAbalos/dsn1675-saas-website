@@ -18,8 +18,22 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
 .main-grey {
   background-color: grey;
+}
+
+.section-grey {
+  background-color: #e2e2e2;
 }
 
 a {
@@ -45,10 +59,42 @@ a {
   text-align: center;
 }
 
+.banner {
+  text-align: center;
+  position: relative;
+}
+
+.banner-img {
+  padding-top: 56.25%;
+  background: #606060 url("http://placehold.it/1920x1080/606060") no-repeat center center;
+  background-size: cover;
+}
+
+.starter-wrap {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.starter {
+  margin: 0 auto;
+  max-width: 25em;
+}
+
+.grey-description {
+  text-align: center;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav li {
     display: inline-block;
+  }
+
+  .starter-wrap {
+    bottom: 1.5rem;
+    position: absolute;
+    background-color: transparent;
   }
 
 }
@@ -61,6 +107,10 @@ a {
 
   .nav-footer {
     text-align: right;
+  }
+
+  .starter-wrap {
+    bottom: 3rem;
   }
 
 }
