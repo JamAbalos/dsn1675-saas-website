@@ -94,6 +94,45 @@ a {
   text-align: center;
 }
 
+.signupbox {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 20rem;
+
+}
+
+label{
+  display: block;
+}
+
+form div {
+  margin-bottom: 0.5rem;
+}
+
+input,
+select {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+  width: 15em;
+}
+
+.check{
+  width: 1rem;
+}
+
+.checkbox {
+  display: inline-block;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav li {
