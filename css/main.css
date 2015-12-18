@@ -28,12 +28,12 @@ body {
   width: 100%;
 }
 
-.main-grey {
-  background-color: grey;
+.main-color {
+  background-color: #d1effa;
 }
 
-.section-grey {
-  background-color: #e2e2e2;
+.section-color {
+  background-color: #6aa7c3;
 }
 
 a {
@@ -60,8 +60,9 @@ a {
 }
 
 .current {
-  background-color: #000;
+  background-color: #6aa7c3;
   color: #fff;
+  border-radius: 25px;
 }
 
 .footer {
@@ -69,18 +70,17 @@ a {
 }
 
 .banner {
+  background-color: #6aa7c3;
   text-align: center;
   position: relative;
 }
 
 .banner-img {
-  padding-top: 56.25%;
-  background: #606060 url("http://placehold.it/1920x1080/606060") no-repeat center center;
-  background-size: cover;
+  width: 100%;
 }
 
 .starter-wrap {
-  background-color: #000;
+  background-color: #6aa7c3;
   color: #fff;
   width: 100%;
 }
