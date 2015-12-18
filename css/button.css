@@ -47,3 +47,22 @@ input:focus, textarea:focus, button:focus {
   outline: 3px solid #fff;
   outline-offset: 3px;
 }
+
+.social {
+  margin: 0;
+}
+
+.social img {
+  width: 50px;
+  padding: 0.25em;
+  margin-top: 0.5rem;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+}
